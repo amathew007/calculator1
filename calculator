@@ -1,0 +1,15 @@
+x=int(input("enter first number "))
+y=int(input("enter second number "))
+op=input("any operator to exercise any operation ")
+if op=='+':
+     print("answer is ", x+y)
+elif op=='-':
+    print("answer is ", x-y)
+elif op == '*':
+    print("answer is ", x * y)
+elif op=='/':
+    print("answer is ", x/y)
+elif op=='%':
+    print("remainder is ", x%y)
+else:
+    print ("invalid input")
